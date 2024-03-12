@@ -2,7 +2,7 @@
 
 Prj -explanations and illustrations URL: 
 
-Core document and future URL:https://docs.google.com/document/...
+Core document and future URL:
 
 Illustration process Figma Page URL: 
 
