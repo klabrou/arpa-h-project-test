@@ -1,13 +1,13 @@
 /*
 COLOR PALETTE
 --raisin-black: #272838ff;
---flax: #f3de8aff;
---coral-pink: #eb9486ff;
+-- #339999
+-- #993333
 --cool-gray: #7e7f9aff;
 --seasalt: #f9f8f8ff;
 --almost white:#F7FFF7;
 
-Font----'Ysabeau Infant', sans-serif;
+Font----'Satoshi', sans-serif;
 */
 
 /* Global Styles
@@ -23,7 +23,7 @@ body{
 	  color: #272838ff;
 	  margin:0;
 	  padding: 0;
-	  font-family: 'Ysabeau Infant', sans-serif;
+	  font-family: 'Satoshi', sans-serif;
 		font-size: 15px;
 		line-height:1.5;
 }
@@ -46,7 +46,7 @@ img{
   }
 
 a{
-	color:#7e7f9aff;
+	color:rgb(52, 163, 165);
 }
 a:hover{
 	text-decoration:none;
@@ -59,7 +59,7 @@ h2{
 	font-size:30px;
 }
 h1,h2 {
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Open Sans';
 	font-weight:500;
 	margin:0;
 }
@@ -74,7 +74,7 @@ h1,h2 {
 }
 
 h3{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Open Sans';
 	font-size:40px;
 	margin-bottom:0;
 	letter-spacing: 0.1em;
@@ -90,7 +90,7 @@ h3{
 }
 
 .divider > section {
-		border-bottom:2px dashed #eb9486ff;
+		border-bottom:2px dashed rgb(51, 153, 153);
 	padding:10px 0;
 }
 
@@ -118,7 +118,7 @@ h3{
 /* Profile
 ----------------------------------*/
 header{
-background: #eb9486ff;
+background: #339999;
 }
 
 header h1 {
@@ -163,7 +163,7 @@ header img {
 	  margin:0;
 	padding-top: 20px;
 	padding-bottom: 70px;
-	font-family: 'Ysabeau Infant', sans-serif;
+	font-family: 'Satoshi', sans-serif;
 	font-size: 17px;
 		line-height:2em;
 }
@@ -180,26 +180,28 @@ header img {
 }
 
 .content-wrapintro {
-	border-bottom:2px dashed #eb9486ff;
+	border-bottom:2px solid rgb(51, 153, 153);
     padding:25px 0;
 }
+
 .intro img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
 	  }
-/* Principles
+/* Proposal
 ----------------------------------*/
-.principles {
+.proposal {
 	background:rgb(255, 255, 255);
 }
 
-.principles a{
+.proposal a{
 	
 }
-.principles .btn{
-  color:#cb6c32;
+
+.proposal .btn{
+  color:rgb(51, 153, 153);
 	background:rgb(255, 255, 255);
 	text-decoration:none;
 	padding:8px;
@@ -208,7 +210,7 @@ header img {
 }
 
 .content-wrap .btn{
-	color:#cb6c32;
+	color:rgb(51, 153, 153);
 	  background:rgb(255, 255, 255);
 	  text-decoration:none;
 	  padding:3px;
@@ -216,27 +218,27 @@ header img {
 	  display:inline-block;
   }
 
-.principles .btn:hover {
-	background:rgba(235,148,134,80%);
+.proposal .btn:hover {
+	background:rgb(51, 153, 153);
 }
 
-.principle-item {
+.proposal-part {
 	overflow:hidden;
 }
 
-.principle-item h3,h4 {
+.proposal-part h3,h4 {
 	text-align: center;
 	}
 
-.principle-item h3 {
+.proposal-part h3 {
 	margin-top:0;
 }
 
-.principle-item p {
-	color: rgb(144, 144, 144);
+.proposal-part p {
+	color: rgb(7A7A7A);
 	  margin:0;
 	padding: 0;
-	font-family: 'Ysabeau Infant', sans-serif;
+	font-family: 'Satoshi', sans-serif;
 	font-size: 15px;
 		line-height:2em;
 }
@@ -250,7 +252,7 @@ header img {
 	  margin:0;
 	padding-top: 0px;
 	padding-bottom: 10px;
-	font-family: 'Ysabeau Infant', sans-serif;
+	font-family: 'Satoshi', sans-serif;
 	font-size: 17px;
 		line-height:2em;
 }
@@ -267,7 +269,7 @@ header img {
 }
 
 .content-wrapconclusion {
-	border:2px dashed #eb9486ff;
+	border:2px solid rgb(51, 153, 153);
 	border-radius: 10%;
     padding:25px 0;
 }
@@ -293,7 +295,7 @@ header img {
 	/* Footer
 ----------------------------------*/
 footer {
-background:  #7e7f9aff;
+background:  #7A7A7A;
 	color:#F7FFF7;
 	background-size:100%;
 	padding-top: ;
@@ -306,7 +308,7 @@ background:  #7e7f9aff;
 		}
 
 .footerbtn{
-		color:#cb6c32;
+		color:rgb(52, 163, 165);
 		  background:rgb(255, 255, 255);
 		  text-decoration:none;
 		  padding:10px;
@@ -383,7 +385,7 @@ background:  #7e7f9aff;
 	}
 
 
-	.principle-item p {
+	.proposal-item p {
 		color: rgb(144, 144, 144);
 		  margin:0;
 		padding: 0;
