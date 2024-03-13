@@ -90,7 +90,7 @@ h3{
 }
 
 .divider > section {
-		border-bottom:2px dashed rgb(51, 153, 153);
+		border-bottom:2px dotted rgb(51, 153, 153);
 	padding:10px 0;
 }
 
@@ -190,6 +190,7 @@ header img {
 	margin-right: auto;
 	width: 70%;
 	  }
+
 /* Proposal
 ----------------------------------*/
 .proposal {
@@ -403,6 +404,7 @@ background:  #7A7A7A;
 		padding-right:30px;
 		
 	}
+	
 	.conclusion .content-wrapconclusion h3{
 		margin-top: 0;
 		
